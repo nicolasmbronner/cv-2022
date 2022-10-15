@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  text-align: center; /* Ceci va centrer le texte dans les div, mais pas les div eux-mêmes */
+  font-family: 'Press Start 2P', cursive;
+}
+
+.top-container {
+  background-color: #27204b;
+}
+
+.mountains {
+  position: relative;
+  left: 0;
+  width: 100%;
+  image-rendering: pixelated;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+  margin: 0;
+  font-size: 3rem;
+  padding-top: 70px;
+}
+
+h2 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+  margin: 0;
+  font-size: 0.75rem;
+  padding-top: 150px;
+  font-weight: normal;
+}
+
+.profile {
+  width: 40%;
+  margin: 0 auto 25px auto;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 30%;
+  margin-top: 100px;
+}
+
+h3 {
+  color: #a5adff;
+  font-size: 2rem;
+}
+
+h4 {
+  color: #3b329f;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #9ab1d6;
+  font-size: 0.75rem;
+  line-height: 2;
+}
+
+hr {
+ margin: 100px auto;
+ border-style: none;
+ border-top-style: dotted;
+ width: 7%;
+ border-color: #211933;
+ border-width: 10px;
+}
+
+.skill-row {
+  width: 50%; /* par défaut, les div prennent 100% de l'espace fenêtre */
+  margin: 100px auto; /* Le texte est centré, mais les blocs div non, et on veut les centrer aussi */
+  text-align: left;
+}
+
+.skill-row img {
+  width: 25%;
+}
+
+.coding-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.graphic-design-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.sound-design-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.middle-container {
+  background-color: #16111d;
+  padding-bottom: 100px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-message {
+  width: 60%;
+  margin: auto auto 60px;
+}
+
+.btn {
+-webkit-border-radius: 8;
+-moz-border-radius: 8;
+border-radius: 8px;
+font-family: 'Press Start 2P', cursive;
+color: #3b329f;
+font-size: 20px;
+background: #a5adff;
+padding: 15px 25px 15px 25px;
+text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffff;
+  background-image: -webkit-linear-gradient(top, #ffff, #ffff);
+  background-image: -moz-linear-gradient(top, #ffff, #ffff);
+  background-image: -ms-linear-gradient(top, #ffff, #ffff);
+  background-image: -o-linear-gradient(top, #ffff, #ffff);
+  background-image: linear-gradient(to bottom, #ffff, #ffff);
+  text-decoration: none;
+}
+
+.bottom-container {
+  padding: 50px 0 10px 0;
+  background-color: #a5adff;
+}
+
+a {
+  text-decoration: none;
+  color: #5652e0;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #16111d;
+}
+
+.copyright {
+ color: #7f88c3;
+ font-size: 0.65rem;
+ margin-top: 30px;
+ margin-bottom: 10px;
+}
